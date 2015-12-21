@@ -1,0 +1,33 @@
+<nav class="post-navigation" role="navigation">
+  <div class="row">
+    <div class="col s5">
+      <div class="post-nav-prev">
+        {% if page.previous %}
+        <a href="{{ site.url }}{{ page.previous.url }}" title="{{ page.previous.title }}">
+          <div class="post-nav-btn">
+            <div class="post-nav-text"><span class="secondary-link-color"><i class="fa fa-arrow-left"></i>&nbsp;</span><span class="hidden-md secondary-link-color ">{{ page.previous.title }}</span></div>
+          </div>
+        </a>
+        {% endif %}
+      </div>
+    </div>
+    <div class="col s2">
+      <a href="{{ site.url }}/">
+        <div class="leonids-icon">
+          <i class="fa fa-home"></i>
+        </div>
+      </a>
+    </div>
+    <div class="col s5 right">
+      <div class="post-nav-next">
+        {% if page.next %}
+        <a href="{{ site.url }}{{ page.next.url }}" title="{{ page.previous.title }}">
+          <div class="post-nav-btn">
+            <div class="post-nav-text"><span class="hidden-md secondary-link-color">{{ page.next.title }}</span><span class="secondary-link-color">&nbsp;<i class="fa fa-arrow-right"></i></span></div>
+          </div>
+        </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</nav>

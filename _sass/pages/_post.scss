@@ -1,0 +1,171 @@
+// Post listing
+.post-listing {
+  background-color: $white;
+  position: absolute;
+  top: 400px;
+  z-index: 233;
+  width: 100%;
+  padding: 50px 50px 0;
+  @include media-query($medium-screen) {
+    height: 100vh;
+    overflow-y: scroll;
+    position: initial;
+    top: 0;
+  }
+}
+
+.image-credit {
+  float: right;
+  font-weight: bold;
+  font-style: italic;
+  color: $info;
+  font-size: 13px;
+  padding-right: 20px;
+}
+
+// Post Section
+section.post {
+	margin-bottom: 80px;
+}
+
+// Post title
+.post-title {
+
+}
+
+.post-title-link {
+	color: $primary;
+	font-size: 14px;
+	margin-left: 10px;
+	&:hover,
+	&:focus {
+		color: lighten($primary, 14%);
+	}
+}
+
+// Post meta
+.post-meta {
+  font-size: 13px;
+  font-weight: bold;
+	.post-date {
+		color: $secondary;
+	}
+	.post-cat {
+		text-transform: uppercase;
+		color: $warning;
+	}
+  .read-time {
+    color: $primary;
+  }
+}
+
+// Post content
+
+#post {
+  padding-bottom: 50px;
+  .post-header {
+    margin: 50px auto;
+  }
+}
+
+#page {
+  padding-bottom: 50px;
+  .page-header {
+    margin: 50px auto;
+  }
+}
+
+.post-navigation {
+  background-color: #f6f6f6;
+  @include box-shadow;
+}
+.leonids-icon {
+  margin: 0 auto;
+  padding: 20px 30px;
+  text-align: center;
+  color: $primary;
+  font-size: 16px;
+  line-height: 16px;
+}
+.post-nav-prev,
+.post-nav-next {
+  min-height: 10px;
+  width: 100%;
+}
+.post-nav-next {
+  text-align: right;
+}
+.post-nav-btn {
+  width: 100%;
+  padding: 20px 30px;
+  .post-nav-text {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+  }
+  .table-cell {
+    vertical-align: middle;
+  }
+}
+.post-image-feature {
+  .feature-image {
+    width: 100%;
+    max-height: 500px;
+  }
+}
+
+// Shares Buttons
+.share-buttons {
+  padding-top: 1em;
+  border-top: 1px solid #ddd;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      display: inline-block;
+      margin-right: 0.5em;
+      span {
+        display: none;
+        @include media-query($small-screen) {
+          display: inline;
+          margin: 0.5em;
+        }
+      }
+    }
+  }
+}
+
+.social_media {
+  background-color: $white;
+  color: $highlight;
+  border-color: $white;
+  font-size: 2em;
+  padding-right: 40px;
+}
+
+.twitter {
+  &:hover {
+    color: #77bcf1;
+  }
+}
+.facebook {
+  &:hover {
+    color: #627aac;
+  }
+}
+.google-plus {
+  &:hover {
+    color: #e36f60;
+  }
+}
+.hacker-news {
+  &:hover {
+    color: #f60;
+  }
+}
+.reddit {
+  &:hover {
+    color: #5f99cf;
+  }
+}

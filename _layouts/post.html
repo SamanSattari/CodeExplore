@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+{% if page.image.feature %}
+<div class="post-image-feature">
+  <img class="feature-image" src=
+  {% if post.image.feature contains 'http' %}
+  "{{ page.image.feature }}"
+  {% else %}
+  "{{ site.url }}/img/{{ page.image.feature }}"
+  {% endif %}
+  alt="{{ page.title }} feature image">
+
+  {% if page.image.credit %}
+  <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+</div><!-- /.image-wrap -->
+{% endif %}
+
+<div class="container">
+  <div id="post">
+    <header class="post-header">
+      <h2 title="{{ page.title }}">{{ page.title }}</h2>
+      <span class="post-meta">
+        <span class="post-date">
+          {{ page.date | date: "%-d %b %Y" | upcase }}
+        </span>
+        •
+        {% include read_time.html %}
+      </span>
+
+    </header>
+
+    <article class="post-content">
+      {{ content }}
+    </article>
+  </div>
+
+  <div class="share-buttons">
+    <h6>Share on: </h6>
+    <ul>
+      <li>
+        <a href="https://twitter.com/intent/tweet?text={{ site.url }}{{ page.url }}" class="social_media twitter" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="social_media facebook" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
+      </li>
+      <li>
+        <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" class="social_media google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+      </li>
+      <li>
+        <a href="https://news.ycombinator.com/submitlink?u={{ site.url }}{{ page.url }}" class="social_media hacker-news" title="Share on Hacker News"><i class="fa fa-hacker-news"></i></a>
+      </li>
+      <li>
+        <a href="https://www.reddit.com/submit?url={{ site.url }}{{ page.url }}" class="social_media reddit" title="Share on Reddit"><i class="fa fa-reddit"></i></a>
+      </li>
+    </ul>
+  </div><!-- end share-buttons -->
+
+  {% if site.owner.disqus-shortname and page.comments == true %}
+  <div id="disqus_thread"></div>
+  {% include disqus.html %}
+  {% endif %}
+</div>
