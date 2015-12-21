@@ -1,0 +1,48 @@
+/*
+Error: Invalid CSS after "@charset "UTF-8"": expected "{", was ";"
+        on line 4 of css/main.scss
+
+1: ---
+2: # Only the main Sass file needs front matter (the dashes are enough)
+3: ---
+4: @charset "UTF-8";
+5: 
+6: // Mixins
+7: @import "components/mixins";
+8: 
+9: // Variables
+
+Backtrace:
+css/main.scss:4
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/scss/parser.rb:1179:in `expected'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/scss/parser.rb:1115:in `expected'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/scss/parser.rb:1110:in `tok!'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/scss/parser.rb:655:in `block'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/scss/parser.rb:649:in `ruleset'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/scss/parser.rb:674:in `block_child'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/scss/parser.rb:664:in `block_contents'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/scss/parser.rb:126:in `stylesheet'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/scss/parser.rb:42:in `parse'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/engine.rb:403:in `_to_tree'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `each'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:293:in `watch'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/plugin.rb:108:in `method_missing'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:381:in `watch_or_update'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/exec/base.rb:52:in `parse'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/lib/sass/exec/base.rb:19:in `parse!'
+/home/saman/.rvm/gems/ruby-2.2.4/gems/sass-3.4.20/bin/sass:13:in `<top (required)>'
+/home/saman/.rvm/gems/ruby-2.2.4/bin/sass:23:in `load'
+/home/saman/.rvm/gems/ruby-2.2.4/bin/sass:23:in `<main>'
+/home/saman/.rvm/gems/ruby-2.2.4/bin/ruby_executable_hooks:15:in `eval'
+/home/saman/.rvm/gems/ruby-2.2.4/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@charset \"UTF-8\"\": expected \"{\", was \";\"\A         on line 4 of css/main.scss\A \A 1: ---\A 2: # Only the main Sass file needs front matter (the dashes are enough)\A 3: ---\A 4: @charset \"UTF-8\";\A 5: \A 6: // Mixins\A 7: @import \"components/mixins\";\A 8: \A 9: // Variables"; }
