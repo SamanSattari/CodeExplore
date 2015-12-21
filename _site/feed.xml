@@ -3,10 +3,10 @@
   <channel>
     <title>CodeExplore</title>
     <description></description>
-    <link>http://samansattari.github.io/codeexplore//</link>
-    <atom:link href="http://samansattari.github.io/codeexplore//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Dec 2015 21:03:54 +0100</pubDate>
-    <lastBuildDate>Mon, 21 Dec 2015 21:03:54 +0100</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 21 Dec 2015 21:16:41 +0100</pubDate>
+    <lastBuildDate>Mon, 21 Dec 2015 21:16:41 +0100</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -29,8 +29,8 @@
 
 </description>
         <pubDate>Tue, 18 Aug 2015 17:07:19 +0200</pubDate>
-        <link>http://samansattari.github.io/codeexplore//2015/08/18/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://samansattari.github.io/codeexplore//2015/08/18/welcome-to-jekyll.html</guid>
+        <link>/2015/08/18/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">/2015/08/18/welcome-to-jekyll.html</guid>
         
         
       </item>
@@ -136,8 +136,8 @@ end
 &lt;/div&gt;
 </description>
         <pubDate>Fri, 16 Aug 2013 00:00:00 +0200</pubDate>
-        <link>http://samansattari.github.io/codeexplore//2013/08/16/code-highlighting-post.html</link>
-        <guid isPermaLink="true">http://samansattari.github.io/codeexplore//2013/08/16/code-highlighting-post.html</guid>
+        <link>/2013/08/16/code-highlighting-post.html</link>
+        <guid isPermaLink="true">/2013/08/16/code-highlighting-post.html</guid>
         
         <category>sample post</category>
         
@@ -159,8 +159,8 @@ end
 &lt;p&gt;Some &lt;a href=&quot;http://www.mademistakes.com&quot;&gt;link&lt;/a&gt; can also be shown.&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Aug 2013 00:00:00 +0200</pubDate>
-        <link>http://samansattari.github.io/codeexplore//2013/08/12/sample-link-post.html</link>
-        <guid isPermaLink="true">http://samansattari.github.io/codeexplore//2013/08/12/sample-link-post.html</guid>
+        <link>/2013/08/12/sample-link-post.html</link>
+        <guid isPermaLink="true">/2013/08/12/sample-link-post.html</guid>
         
         <category>sample post</category>
         
@@ -221,8 +221,8 @@ end
 &lt;/div&gt;
 </description>
         <pubDate>Thu, 23 May 2013 00:00:00 +0200</pubDate>
-        <link>http://samansattari.github.io/codeexplore//2013/05/23/readability-feature-post.html</link>
-        <guid isPermaLink="true">http://samansattari.github.io/codeexplore//2013/05/23/readability-feature-post.html</guid>
+        <link>/2013/05/23/readability-feature-post.html</link>
+        <guid isPermaLink="true">/2013/05/23/readability-feature-post.html</guid>
         
         <category>sample post</category>
         
@@ -277,8 +277,8 @@ end
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 </description>
         <pubDate>Tue, 22 May 2012 00:00:00 +0200</pubDate>
-        <link>http://samansattari.github.io/codeexplore//2012/05/22/readability-post.html</link>
-        <guid isPermaLink="true">http://samansattari.github.io/codeexplore//2012/05/22/readability-post.html</guid>
+        <link>/2012/05/22/readability-post.html</link>
+        <guid isPermaLink="true">/2012/05/22/readability-post.html</guid>
         
         <category>sample post</category>
         
@@ -311,7 +311,7 @@ end
 
 &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
 
-&lt;p class=&quot;pull-right&quot;&gt;&lt;img src=&quot;http://samansattari.github.io/codeexplore//img/sample-image-2.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;pull-right&quot;&gt;&lt;img src=&quot;/img/sample-image-2.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
 
@@ -414,8 +414,8 @@ end
 &lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; You can also add notices by appending &lt;code&gt;{: .notice}&lt;/code&gt; to a paragraph.&lt;/p&gt;
 </description>
         <pubDate>Thu, 10 Mar 2011 00:00:00 +0100</pubDate>
-        <link>http://samansattari.github.io/codeexplore//2011/03/10/sample-post.html</link>
-        <guid isPermaLink="true">http://samansattari.github.io/codeexplore//2011/03/10/sample-post.html</guid>
+        <link>/2011/03/10/sample-post.html</link>
+        <guid isPermaLink="true">/2011/03/10/sample-post.html</guid>
         
         <category>intro</category>
         
